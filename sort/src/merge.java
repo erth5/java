@@ -1,7 +1,7 @@
 public class merge {
-    public static int[] intArr = {12,4,3};
+    private static int[] intArr = {12, 4, 3};
 
-    public int[] sort(int l, int r) {
+    private int[] sort(int l, int r) {
 
         if (l < r) {
             int q = (l + r) / 2;
@@ -13,22 +13,22 @@ public class merge {
         return intArr;
     }
 
-    private void merge(int l, int q, int r){
+    private void merge(int l, int q, int r) {
         int[] arr = new int[intArr.length];
         int i, j;
-        for (i = l; i <= q; i++){
+        for (i = l; i <= q; i++) {
             arr[i] = intArr[i];
         }
-        for (j = q + 1; j <= r; j++){
+        for (j = q + 1; j <= r; j++) {
             arr[r + q + 1 - j] = intArr[j];
         }
         i = l;
         j = r;
-        for (int k = l; k <= r; k++){
-            if (arr[i] <= arr[j]){
+        for (int k = l; k <= r; k++) {
+            if (arr[i] <= arr[j]) {
                 intArr[k] = arr[i];
                 i++;
-            }   else{
+            } else {
                 intArr[k] = arr[j];
                 j--;
             }
@@ -40,6 +40,7 @@ public class merge {
         merge m = new merge();
         int[] arr = m.sort(0, intArr.length - 1);
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(i + 1 + ": " + arr[i]); }
+            System.out.println(i + 1 + ": " + arr[i]);
+        }
     }
 }
