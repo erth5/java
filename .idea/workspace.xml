@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b67abb5b-178f-42e7-84f5-b927205ca3f6" name="Default Changelist" comment="">
+    <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/dep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/dep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/dep.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/dep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/testfile.json" beforeDir="false" afterPath="$PROJECT_DIR$/dep/file.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +53,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -89,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.dep">
+  <component name="RunManager" selected="Application.jsontoobject">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="dep" />
       <method v="2">
@@ -98,6 +96,13 @@
     </configuration>
     <configuration name="dep" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="dep" />
+      <module name="dep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jsontoobject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsontoobject" />
       <module name="dep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,9 +118,11 @@
     <list>
       <item itemvalue="Application.dep" />
       <item itemvalue="Application.objecttojson" />
+      <item itemvalue="Application.jsontoobject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jsontoobject" />
         <item itemvalue="Application.objecttojson" />
       </list>
     </recent_temporary>
