@@ -24,9 +24,11 @@ public class dep {
         JSONArray jsonArray = new JSONArray("[naffer]");
         System.out.println(jsonArray.toString());
 
-        //JSON Api simple framework
-        org.json.simple.JSONObject sob = new org.json.simple.JSONObject();
-
+        //JSON Api simple framework#
+        String neww = "testfile.json";
+        ////Object testfile = new Object();
+        ////org.json.simple.JSONObject sob = new org.json.simple.JSONObject(testfile.json);
+        //System.out.println(sob);
 
         //Microsoft Excel
         HSSFWorkbook workbook = new HSSFWorkbook();

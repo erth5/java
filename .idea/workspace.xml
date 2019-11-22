@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67abb5b-178f-42e7-84f5-b927205ca3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/src/main/java/objecttojson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/testfile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/dep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/dep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/src/main/java/dep.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/dep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/testfile.json" beforeDir="false" afterPath="$PROJECT_DIR$/dep/file.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,12 @@
       </set>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -55,12 +58,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dep/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../softwaretechnik" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.side.proportion" value="0.31609195" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.objecttojson">
+  <component name="RunManager" selected="Application.dep">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="dep" />
       <method v="2">
@@ -104,53 +110,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="dep" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="dep" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.dep" />
+      <item itemvalue="Application.objecttojson" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.objecttojson" />
@@ -158,15 +121,16 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\test\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="65f70762-d669-41cf-b335-39d226be84fd" name="Default Changelist" comment="" />
+      <changelist id="b67abb5b-178f-42e7-84f5-b927205ca3f6" name="Default Changelist" comment="" />
       <created>1573672341946</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573672341946</updated>
+      <workItem from="1574456215661" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="sort">
       <created>1573673798199</created>
@@ -189,8 +153,19 @@
       <option name="project" value="LOCAL" />
       <updated>1573678406441</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="depJSON">
+      <created>1574455680720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574455680720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <option name="updateEnabled" value="false" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -209,5 +184,19 @@
     <MESSAGE value="sort" />
     <MESSAGE value="depJSON" />
     <option name="LAST_COMMIT_MESSAGE" value="depJSON" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="java" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dep" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="java" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dep" type="462c0819:PsiDirectoryNode" />
+        <item name="src" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
