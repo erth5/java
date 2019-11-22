@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/def.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dep/src/main/java/jsonobj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/dep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/dep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/dep.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/dep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/objecttojson.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/objecttojson.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.dep">
+  <component name="RunManager" selected="Application.jsontoobject">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="dep" />
       <method v="2">
@@ -107,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="objecttojson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objecttojson" />
+    <configuration name="jsontoobject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsontoobject" />
       <module name="dep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,13 +132,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.dep" />
-      <item itemvalue="Application.objecttojson" />
+      <item itemvalue="Application.jsontoobject" />
       <item itemvalue="Application.jsontoobject" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.jsontoobject" />
-        <item itemvalue="Application.objecttojson" />
+        <item itemvalue="Application.jsontoobject" />
       </list>
     </recent_temporary>
   </component>
@@ -131,12 +147,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b67abb5b-178f-42e7-84f5-b927205ca3f6" name="Default Changelist" comment="" />
+      <changelist id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="" />
       <created>1573672341946</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573672341946</updated>
       <workItem from="1574456215661" duration="1466000" />
+      <workItem from="1574459213246" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="sort">
       <created>1573673798199</created>
@@ -166,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574455680720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dep update">
+      <created>1574459141669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574459141669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <option name="updateEnabled" value="false" />
     <servers />
   </component>
@@ -189,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sort" />
     <MESSAGE value="depJSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="depJSON" />
+    <MESSAGE value="dep update" />
+    <option name="LAST_COMMIT_MESSAGE" value="dep update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
