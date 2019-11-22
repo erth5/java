@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/def.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/src/main/java/jsonobj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/objecttojson.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/objecttojson.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573672341946</updated>
       <workItem from="1574456215661" duration="1466000" />
-      <workItem from="1574459213246" duration="2218000" />
+      <workItem from="1574459213246" duration="2536000" />
     </task>
     <task id="LOCAL-00001" summary="sort">
       <created>1573673798199</created>
@@ -190,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574459141669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dep update">
+      <created>1574461449280</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574461449280</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <option name="updateEnabled" value="false" />
     <servers />
   </component>
