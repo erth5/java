@@ -12,7 +12,6 @@ public class read {
         try (BufferedReader reader = Files.newBufferedReader(file)){
             while (reader.ready()){
                 System.out.println(reader.readLine());
-                reader.close();
             }
         } catch (IOException e) {
             e.printStackTrace();
