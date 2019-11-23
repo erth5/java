@@ -4,10 +4,15 @@ import org.json.JSONObject;
 public class jsontoobject {
     public static void main(String[] args){
         JSONArray JA = new JSONArray();
-        JA.put(Integer.parseInt("Anna"), "sagtja");
+
+        JSONArray managers = new JSONArray();
+        managers.put(getPerson("John","Doe"));
+        managers.put(getPerson("Anna","Smith"));
+        managers.put(getPerson("Peter","Jones"));
+        System.out.println(managers.get(1));
     }
 
-    JSONObject getPerson(String firstName, String lastName){
+    static JSONObject getPerson(String firstName, String lastName){
         JSONObject person = new JSONObject();
         person .put("firstName", firstName);
         person .put("lastName", lastName);
@@ -25,6 +30,7 @@ public class jsontoobject {
         managers.put(getPerson("John","Doe"));
         managers.put(getPerson("Anna","Smith"));
         managers.put(getPerson("Peter","Jones"));
+        System.out.println(managers.get(3));
 
         JSONObject response= new JSONObject();
         response.put("employees", employees );
