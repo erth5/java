@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/src/main/java/parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/src/main/java/tut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/dep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/dep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/testpars.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/testpars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/parser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +177,7 @@
       <workItem from="1574456215661" duration="1466000" />
       <workItem from="1574459213246" duration="3088000" />
       <workItem from="1574462556612" duration="3551000" />
-      <workItem from="1574522750555" duration="9115000" />
+      <workItem from="1574522750555" duration="9335000" />
     </task>
     <task id="LOCAL-00001" summary="sort">
       <created>1573673798199</created>
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574461975307</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dep update">
+      <created>1574532191576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574532191576</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <option name="updateEnabled" value="false" />
     <servers />
   </component>
