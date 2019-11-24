@@ -5,15 +5,32 @@ import org.json.simple.parser.ParseException;
 
 import java.io.*;
 
-public class parser {
+public class json_simple {
     public static void main(String[] args) throws IOException {
         test_calender();
+
+        JSONObject obj = new JSONObject();
+        obj.put("name", "mkyong.com");
+        obj.put("age", 100);
+
+        JSONArray list = new JSONArray();
+        list.add("msg 1");
+        list.add("msg 2");
+        list.add("msg 3");
+
+        obj.put("messages", list);
+
+        try (FileWriter file = new FileWriter("file.json")) {
+            file.write(obj.toJSONString());
+            file.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.print(obj);
     }
-    //*from DB
-    //++to android
+
     public static void test_calender() throws IOException {
-        JSONArray calender = new JSONArray();
-        test_client();
 
         //examples
         JSONObject ex = new JSONObject();
@@ -29,9 +46,10 @@ public class parser {
         example.add(0, "TT");
 
         //testing
-        in_cal("calendar.json", "calendar");
-        out_obj(ex, "whateverobj.json");
-        out_arr(example, "whateverarr.json");
+        //in_cal("file.json", "calendar");
+        out_obj(ex, "file.json");
+        out_arr(example, "file.json");
+        test_client();
     }
 
     public static void test_client(){
@@ -43,12 +61,6 @@ public class parser {
         JSONObject first_name = new JSONObject();
         first_name.put("first-name", "robert");
         JSONObject surname = new JSONObject();
-        JSONObject email = new JSONObject();
-        JSONObject birthday = new JSONObject();
-        JSONObject number = new JSONObject();
-        JSONObject place = new JSONObject();
-        JSONObject street = new JSONObject();
-        JSONObject hash = new JSONObject();
 
         client.add(ID);
         client.add(login);
@@ -56,11 +68,7 @@ public class parser {
         System.out.println(client);
         System.out.println(ID.values());
     }
-    //++to win
-    //*from win
-    //*from android
 
-    //*general
     //out
     private static void out_obj(JSONObject obj, String file){
         try (FileWriter writer = new FileWriter(file)){
@@ -82,6 +90,7 @@ public class parser {
     //parse a array of objects
     public static void in_cal(String file, String type) throws IOException {
         JSONParser parser = new JSONParser();
+
         try (Reader reader = new FileReader(file)){
             JSONObject ev = (JSONObject) parser.parse(reader);
             switch (type){
@@ -112,8 +121,6 @@ public class parser {
             e.printStackTrace();
         }
     }
-
-
 
     //parse only one object
     public static void in_obj(String file) throws IOException {

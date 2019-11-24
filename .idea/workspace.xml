@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="clean">
+    <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dep/file.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/dep.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/dep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/jsonobj.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/json_construct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/jsontoobject.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/objecttojson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/json_simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/testpars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/tut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,12 +88,14 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\test\IdeaProjects\java\dep" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\test\IdeaProjects\java\dep\src\main\java" />
       <recent name="C:\Users\test\IdeaProjects\java\sort\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\test\IdeaProjects\java\dep" />
+      <recent name="C:\Users\test\IdeaProjects\java\dep\src\main\java" />
+      <recent name="C:\Users\test\IdeaProjects\java\dep\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.parser">
+  <component name="RunManager" selected="Application.jsontoobject">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="dep" />
       <method v="2">
@@ -113,8 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jsontoobject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsontoobject" />
+    <configuration name="json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json" />
+      <module name="dep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="json_simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json_simple" />
       <module name="dep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,13 +140,6 @@
     </configuration>
     <configuration name="jsontoobject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jsontoobject" />
-      <module name="dep" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parser" />
       <module name="dep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,14 +164,14 @@
       <item itemvalue="Application.jsontoobject" />
       <item itemvalue="Application.testpars" />
       <item itemvalue="Application.tut" />
-      <item itemvalue="Application.parser" />
+      <item itemvalue="Application.json_simple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.parser" />
+        <item itemvalue="Application.jsontoobject" />
+        <item itemvalue="Application.json_simple" />
         <item itemvalue="Application.tut" />
         <item itemvalue="Application.testpars" />
-        <item itemvalue="Application.jsontoobject" />
         <item itemvalue="Application.jsontoobject" />
       </list>
     </recent_temporary>
@@ -243,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574532265583</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update client">
+      <created>1574586870528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574586870528</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <option name="updateEnabled" value="false" />
     <servers />
   </component>
@@ -268,7 +286,8 @@
     <MESSAGE value="depJSON" />
     <MESSAGE value="dep update" />
     <MESSAGE value="clean" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean" />
+    <MESSAGE value="update client" />
+    <option name="LAST_COMMIT_MESSAGE" value="update client" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

@@ -1,6 +1,6 @@
 import org.json.JSONObject;
 
-public class jsonobj {
+public class json_construct {
     public static void main(String[] args){}
 
     JSONObject jo = new JSONObject();

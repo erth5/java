@@ -1,7 +1,7 @@
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class jsontoobject {
+public class json {
     public static void main(String[] args){
         JSONArray JA = new JSONArray();
 
