@@ -13,7 +13,7 @@ public class parser {
     //++to android
     public static void test_calender() throws IOException {
         JSONArray calender = new JSONArray();
-
+        test_client();
 
         //examples
         JSONObject ex = new JSONObject();
@@ -32,6 +32,29 @@ public class parser {
         in_cal("calendar.json", "calendar");
         out_obj(ex, "whateverobj.json");
         out_arr(example, "whateverarr.json");
+    }
+
+    public static void test_client(){
+        JSONArray client = new JSONArray();
+        JSONObject ID = new JSONObject();
+        ID.put("ID", "5236");
+        JSONObject login = new JSONObject();
+        login.put("login-name", "root");
+        JSONObject first_name = new JSONObject();
+        first_name.put("first-name", "robert");
+        JSONObject surname = new JSONObject();
+        JSONObject email = new JSONObject();
+        JSONObject birthday = new JSONObject();
+        JSONObject number = new JSONObject();
+        JSONObject place = new JSONObject();
+        JSONObject street = new JSONObject();
+        JSONObject hash = new JSONObject();
+
+        client.add(ID);
+        client.add(login);
+        client.add(first_name);
+        System.out.println(client);
+        System.out.println(ID.values());
     }
     //++to win
     //*from win
