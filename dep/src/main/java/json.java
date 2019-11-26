@@ -1,5 +1,6 @@
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.json.JSONStringer;
 
 public class json {
     public static void main(String[] args){
@@ -36,5 +37,23 @@ public class json {
         response.put("employees", employees );
         response.put("manager", managers );
         return response;
+    }
+
+    public json(){
+        //using 1
+        String mystr = new JSONStringer()
+                .object()
+                .key("JSON")
+                .value("hello")
+                .endObject()
+                .toString();
+        //using 2
+        JSONObject obj = new JSONObject("{ \"hello\" : \"world\" }");
+        String x = obj.toString();
+        obj.put("hello", "again");
+        System.out.println("finish" + x + obj);
+        //using 3
+        JSONArray jsonArray = new JSONArray("[naffer]");
+        System.out.println(jsonArray.toString());
     }
 }

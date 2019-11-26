@@ -132,4 +132,7 @@ public class json_simple {
             ex.printStackTrace();
         }
     }
+
+    public static void in_arr() {
+    }
 }
