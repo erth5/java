@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_barcodes_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_font_asian_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_forms_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_hyph_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_io_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_kernel_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_layout_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_pdfa_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_sign_7_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dep/src/main/java/pdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/dep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/dep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dep/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dep/src/main/java/dep.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/dep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/json.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dep/src/main/java/json_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/json_simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/json.java" beforeDir="false" afterPath="$PROJECT_DIR$/dep/src/main/java/json_example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dep/src/main/java/pdf.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="uniq" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,6 +66,7 @@
   </component>
   <component name="ProjectId" id="1TZzv6ME8gUspZnDr5e6WLDIhyS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -105,18 +93,6 @@
       <recent name="C:\Users\test\IdeaProjects\java\dep\src\main\java" />
       <recent name="C:\Users\test\IdeaProjects\java\sort\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.pdf">
     <configuration default="true" type="Application" factoryName="Application">
@@ -184,6 +160,18 @@
         <item itemvalue="Application.testpars" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\test\AppData\Roaming\Subversion</configuration>
@@ -306,6 +294,12 @@
     <MESSAGE value="update client" />
     <MESSAGE value="clean json" />
     <option name="LAST_COMMIT_MESSAGE" value="clean json" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="803" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575227799899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575227799899" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

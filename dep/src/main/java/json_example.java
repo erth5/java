@@ -2,7 +2,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONStringer;
 
-public class json {
+public class json_example {
     public static void main(String[] args){
         JSONArray JA = new JSONArray();
 
@@ -39,7 +39,7 @@ public class json {
         return response;
     }
 
-    public json(){
+    public json_example(){
         //using 1
         String mystr = new JSONStringer()
                 .object()
