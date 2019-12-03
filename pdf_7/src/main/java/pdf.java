@@ -31,7 +31,7 @@ public class pdf {
 
         //Background
         ImageData bgdata = ImageDataFactory.create("bg.png");
-        Image bg = new Image(bgdata).setFixedPosition(0, 0).setHeight(860).setWidth(600);
+        Image bg = new Image(bgdata).setFixedPosition(0, 0).setHeight(848).setWidth(595);
         doc.add(bg);
 
 
@@ -73,7 +73,7 @@ public class pdf {
         doc.add(new Paragraph("GMBH Examplefirma"));
         doc.add(new Paragraph("Geschäftsführer: Name A. Sutta"));
         doc.add(new Paragraph("Bspstraße 43h"));
-        doc.add(new Paragraph("12345 Stadt"));
+        doc.add(new Paragraph("12345 EineStadt"));
         doc.add(new Paragraph("Telefonnummer: 00000000"));
         doc.add(new Paragraph("Webauftritt: www.example.de"));
         doc.add(new Paragraph("Email: example.gmail.de"));
