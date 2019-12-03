@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_forms_7_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_layout_7_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_pdfa_7_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_pdftest_7_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_5/src/main/java/pdf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_13_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" beforeDir="false" />
+    <list default="true" id="bda5efb7-e885-4138-977d-8ec063d24225" name="Default Changelist" comment="up">
+      <change afterPath="$PROJECT_DIR$/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf_7/ChopinScript.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_5/pdf_5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_5/pdf_5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_7/pdf_7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_7/pdf_7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_7/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdf_7/src/main/java/pdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_7/src/main/java/pdf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdf_7/src/main/java/starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_7/src/main/java/starter.java" afterDir="false" />
     </list>
@@ -31,6 +15,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,11 +97,15 @@
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\test\IdeaProjects\java" />
+      <recent name="C:\Users\test\IdeaProjects\java\pdf_7" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\test\IdeaProjects\java\sort\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.starter">
+  <component name="RunManager">
     <configuration name="pdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pdf" />
       <module name="pdf_7" />
@@ -111,21 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="starter" />
-      <module name="pdf_7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.pdf" />
-      <item itemvalue="Application.starter" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.pdf" />
-        <item itemvalue="Application.starter" />
       </list>
     </recent_temporary>
   </component>
@@ -196,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575221551775" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575226470891">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575399368326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575226470891" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575399368326" />
     <state x="765" y="235" width="884" height="721" key="#com.intellij.ide.util.MemberChooser" timestamp="1575224716779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,22 +206,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575224315851" />
-    <state width="1877" height="162" key="GridCell.Tab.0.bottom" timestamp="1575226374942">
+    <state width="1877" height="162" key="GridCell.Tab.0.bottom" timestamp="1575400762732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="162" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575226374942" />
-    <state width="1877" height="162" key="GridCell.Tab.0.center" timestamp="1575226374942">
+    <state width="1877" height="162" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575400762732" />
+    <state width="1877" height="162" key="GridCell.Tab.0.center" timestamp="1575400762732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="162" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575226374942" />
-    <state width="1877" height="162" key="GridCell.Tab.0.left" timestamp="1575226374942">
+    <state width="1877" height="162" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575400762732" />
+    <state width="1877" height="162" key="GridCell.Tab.0.left" timestamp="1575400762732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="162" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575226374942" />
-    <state width="1877" height="162" key="GridCell.Tab.0.right" timestamp="1575226374942">
+    <state width="1877" height="162" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575400762732" />
+    <state width="1877" height="162" key="GridCell.Tab.0.right" timestamp="1575400762732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="162" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575226374942" />
+    <state width="1877" height="162" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575400762732" />
+    <state width="1877" height="326" key="GridCell.Tab.1.bottom" timestamp="1575398058376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="326" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575398058376" />
+    <state width="1877" height="326" key="GridCell.Tab.1.center" timestamp="1575398058375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="326" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575398058375" />
+    <state width="1877" height="326" key="GridCell.Tab.1.left" timestamp="1575398058374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="326" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575398058374" />
+    <state width="1877" height="326" key="GridCell.Tab.1.right" timestamp="1575398058375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="326" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575398058375" />
+    <state x="488" y="233" key="Maven.ArtifactSearchDialog" timestamp="1575397307206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="488" y="233" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575397307206" />
     <state x="440" y="93" width="998" height="792" key="SettingsEditor" timestamp="1575226236982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
