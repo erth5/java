@@ -1,5 +1,4 @@
 import com.itextpdf.text.*;
-import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfWriter;
 
 import java.io.FileOutputStream;

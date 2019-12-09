@@ -11,10 +11,5 @@
         <module name="pdf_5" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="GSON-PDF" target="1.5" />
-      <module name="pdf_5" target="1.5" />
-      <module name="pdf_7" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
