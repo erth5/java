@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GSON-PDF/GSON-PDF.iml" filepath="$PROJECT_DIR$/GSON-PDF/GSON-PDF.iml" />
       <module fileurl="file://$PROJECT_DIR$/pdf_5/pdf_5.iml" filepath="$PROJECT_DIR$/pdf_5/pdf_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/pdf_7/pdf_7.iml" filepath="$PROJECT_DIR$/pdf_7/pdf_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sft/sft.iml" filepath="$PROJECT_DIR$/sft/sft.iml" />
     </modules>
   </component>
 </project>

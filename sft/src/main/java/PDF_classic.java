@@ -12,9 +12,9 @@ import java.net.MalformedURLException;
 
 import static com.itextpdf.kernel.colors.ColorConstants.RED;
 
-public class pdf {
+public class PDF_classic {
     public static void main(String[] args) throws FileNotFoundException, MalformedURLException {
-        create_pdf("7.pdf", "Paul", "Mustermann", "Hacking für Anfänger", "12.12,2019", "Beispiel Anwalt");
+        create_pdf("sft.pdf", "Paul", "Mustermann", "Hacking für Anfänger", "12.12,2019", "Beispiel Anwalt");
     }
     public static void create_pdf(String file, String first_name, String sur_name, String kurs_name, String date, String desc) throws FileNotFoundException, MalformedURLException {
 //Initialize writer

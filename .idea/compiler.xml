@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GSON-PDF" />
+        <module name="sft" />
         <module name="pdf_7" />
         <module name="pdf_5" />
       </profile>

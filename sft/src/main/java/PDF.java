@@ -7,36 +7,59 @@ import com.itextpdf.layout.Style;
 import com.itextpdf.layout.element.Image;
 import com.itextpdf.layout.element.Paragraph;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.net.MalformedURLException;
+import java.sql.Date;
 
 import static com.itextpdf.kernel.colors.ColorConstants.RED;
 
 public class PDF {
-    public static void main(String[] args) throws FileNotFoundException, MalformedURLException {
-        create_pdf("test.pdf", "Paul", "Mustermann", "Hacking für Anfänger", "12.12,2019", "Beispiel Anwalt");
-    }
-    public static void create_pdf(String file, String first_name, String sur_name, String kurs_name, String date, String desc) throws FileNotFoundException, MalformedURLException {
-//Initialize writer
-        PdfWriter writer = new PdfWriter(file);
+    // Informationsveranstalter info
+    public static void createPDF(Kunde costumer, Seminar seminar) throws IOException {
+        //get values from costumer
+        String first_name = costumer.getVorname();
+        String sur_name = costumer.getNachname();
+        String email = costumer.getEmail_adresse();
+        String place = costumer.getOrt();
+        String plz = costumer.getPlz();
+        String street = costumer.getStrasse();
+        String house_number = costumer.getHausnummer();
+        Date birth_date = costumer.getGeburtsdatum();
 
-        //data
-        String sex = "male";
+        //get values from seminar
+        String title = seminar.getTitel_seminar();
+        String desc = seminar.getBeschreibung();
+        Date date = (Date) seminar.getDatum();      //proof of right format
 
-//Initialize document
+        //get info
+
+        //for out
+        String out = "sft.pdf";
+        //Initialize writer
+        PdfWriter writer = new PdfWriter(out);
         PdfDocument pdfDoc = new PdfDocument(writer);
         Document doc = new Document(pdfDoc);
 
-//Add paragraph to the document
+        //Add objects to the document
 
         //Background
-        ImageData bgdata = ImageDataFactory.create("bg.png");
-        Image bg = new Image(bgdata).setFixedPosition(0, 0).setHeight(848).setWidth(595);
+        ImageData bgdata = null;
+        try {
+            bgdata = ImageDataFactory.create("background.png");
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        Image bg = new Image(bgdata).setFixedPosition(0, 0).setHeight(848).setWidth(598);
         doc.add(bg);
 
-
         //image
-        ImageData data = ImageDataFactory.create("img.png");
+        ImageData data = null;
+        try {
+            data = ImageDataFactory.create("ico.png");//set ico.png
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
         Image img = new Image(data).setFixedPosition(360, 80);
         doc.add(img);
 
@@ -46,25 +69,18 @@ public class PDF {
                 .setBold()
                 .setFontColor(RED);
 
-        //title
-        //Paragraph U = new Paragraph("Urkunde");
-        //U.setFontSize(55).setPadding(30).setMarginBottom(50).addStyle(Title);
-
-        //Paragraph r = new Paragraph("rkunde").setFontColor(ColorConstants.BLACK);
-        //r.setFontSize(43).setTextAlignment(TextAlignment.CENTER).setBold().setItalic().setFontColor(RED);
-        //doc.add(U);
-
         doc.add(new Paragraph("").setPadding(110));
 
-        //desc
+        //sex of person ?
+        String sex = "male";
         if (sex.equals("male")){
             doc.add(new Paragraph("Sehr Geehrter Herr " + first_name + " " + sur_name + ".").setFontSize(20));
         }else {
             doc.add(new Paragraph("Sehr Geehrte Frau " + first_name + " " + sur_name + ".").setFontSize(20));
         }
 
-        doc.add(new Paragraph("Wir freuen uns, das sie den Kurs \n" + kurs_name + " am " + date+ " \n erfolgreich bei uns Absolviert haben.").setFontSize(18));
-        doc.add(new Paragraph("Durch den Besuch haben sie wichtige Erkentnisse gewonnen \n und das Zertifikat " + desc + " erhalten.").setFontSize(18));
+        doc.add(new Paragraph("Wir freuen uns, das sie den Kurs " + title + " am " + date+ " erfolgreich bei uns Absolviert haben.").setFontSize(18));   //\n
+        doc.add(new Paragraph(desc).setFontSize(18));
 
         doc.add(new Paragraph("").setPaddingBottom(100));
 
@@ -77,15 +93,11 @@ public class PDF {
         doc.add(new Paragraph("Telefonnummer: 00000000"));
         doc.add(new Paragraph("Webauftritt: www.example.de"));
         doc.add(new Paragraph("Email: example.gmail.de"));
-        //doc.add(new Paragraph("test").setFirstLineIndent(100));
-        //doc.add(new AreaBreak()); new side
-
-//Close document
+        //Close document
         try {
             doc.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }

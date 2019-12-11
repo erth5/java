@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class pdf {
     public static void main(String[] args) throws IOException, DocumentException {
-        pdf.create_pdf("test5.pdf");
+        pdf.create_pdf("5.pdf");
     }
 
     public static void create_pdf(String file) throws IOException, DocumentException {

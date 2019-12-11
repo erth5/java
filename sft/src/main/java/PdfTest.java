@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.sql.Date;
 
@@ -9,28 +10,28 @@ public class PdfTest {
         System.out.println(kunde.toString());
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Kunde kunde = new Kunde();
-        kunde.setVorname("Paul");
+        kunde.setVorname("Müller");
         kunde.setNachname("Peter");
         kunde.setKunden_nummer(8267);
         kunde.setEmail_adresse("example@gmail.com");
         kunde.setOrt("Mittweida");
         kunde.setPlz("07463");
-        kunde.setStrasse("examplestreet");
+        kunde.setStrasse("Poststraße");
         kunde.setHausnummer("27");
         kunde.setLogin_name("derBaer");
         kunde.setPassword("123456");
-        kunde.setGeburtsdatum(new Date(2019, 1, 1));
+        kunde.setGeburtsdatum(new Date(1995, 4, 21));
         System.out.println(kunde);
 
         Seminar seminar = new Seminar();
         seminar.setSeminarnummer(342895);
-        seminar.setTitel_seminar("DasKlange");
+        seminar.setTitel_seminar("Webinterface in html");
         seminar.setRaum_nummer("3-019");
         seminar.setAdresse_medien("wasdas?");
-        seminar.setBeschreibung("Das Klange ist ein Seminar, in dem Getrunken wird");
+        seminar.setBeschreibung("Das Webinterface ist ein Seminar, in neue Webtechnologie getestet wird.");
         seminar.setSeminarklasse("WasDas");
         seminar.setMax_teilnehmer(20);
         seminar.setDozenten_nummer(293);
@@ -39,11 +40,15 @@ public class PdfTest {
         seminar.setEnd_zeit("13:00");
         System.out.println(seminar);
 
-        //call PDF function
+        //call PDF classic function7
+
         try {
-            PDF.create_pdf("test.pdf", "Paul", "Mustermann", "Hacking für Anfänger", "12.12,2019", "Beispiel Anwalt");
+            PDF_classic.create_pdf("test.pdf", "Paul", "Mustermann", "Hacking für Anfänger", "12.12,2019", "Beispiel Anwalt");
         } catch (FileNotFoundException | MalformedURLException e) {
             e.printStackTrace();
         }
+
+        //call PDF
+        PDF.createPDF(kunde, seminar);
     }
 }
