@@ -28,10 +28,10 @@ public class PdfTest {
 
         Seminar seminar = new Seminar();
         seminar.setSeminarnummer(342895);
-        seminar.setTitel_seminar("Webinterface in html");
+        seminar.setTitel_seminar("HTML im modernen Web");
         seminar.setRaum_nummer("3-019");
         seminar.setAdresse_medien("wasdas?");
-        seminar.setBeschreibung("Das Webinterface ist ein Seminar, in neue Webtechnologie getestet wird.");
+        seminar.setBeschreibung("Im Kurs haben sie den Aufbau von HTML kennen gelernt und diese Erkenntnisse angewand. Besonders auf den Unterschied zwiwschen alten und neuen Standarts wurde erklärt.");
         seminar.setSeminarklasse("WasDas");
         seminar.setMax_teilnehmer(20);
         seminar.setDozenten_nummer(293);

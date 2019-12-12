@@ -60,7 +60,7 @@ public class PDF {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        Image img = new Image(data).setFixedPosition(360, 80);
+        Image img = new Image(data).setFixedPosition(360, 70);
         doc.add(img);
 
         // font, style
@@ -74,25 +74,26 @@ public class PDF {
         //sex of person ?
         String sex = "male";
         if (sex.equals("male")){
-            doc.add(new Paragraph("Sehr Geehrter Herr " + first_name + " " + sur_name + ".").setFontSize(20));
+            doc.add(new Paragraph("Sehr Geehrter Herr " + first_name + " " + sur_name + ",").setFontSize(20));
         }else {
             doc.add(new Paragraph("Sehr Geehrte Frau " + first_name + " " + sur_name + ".").setFontSize(20));
         }
 
-        doc.add(new Paragraph("Wir freuen uns, das sie den Kurs " + title + " am " + date+ " erfolgreich bei uns Absolviert haben.").setFontSize(18));   //\n
+        doc.add(new Paragraph("wir freuen uns, das sie den Kurs " + title + " am " + date+ " erfolgreich bei uns Absolviert haben.").setFontSize(18));   //\n
+        doc.add(new Paragraph(" "));
         doc.add(new Paragraph(desc).setFontSize(18));
-
-        doc.add(new Paragraph("").setPaddingBottom(100));
+        doc.add(new Paragraph("Die Firma Hybertech stellt ihnen daher das Zertifikat aus.").setFontSize(18));
 
         //Footer
+        doc.add(new Paragraph("").setPaddingBottom(60));
         doc.add(new Paragraph("Mit Freundlichen Grüßen").setFontSize(18));
-        doc.add(new Paragraph("GMBH Examplefirma"));
+        doc.add(new Paragraph("F-Planer GMBH"));
         doc.add(new Paragraph("Geschäftsführer: Name A. Sutta"));
         doc.add(new Paragraph("Bspstraße 43h"));
         doc.add(new Paragraph("12345 EineStadt"));
         doc.add(new Paragraph("Telefonnummer: 00000000"));
         doc.add(new Paragraph("Webauftritt: www.example.de"));
-        doc.add(new Paragraph("Email: example.gmail.de"));
+        doc.add(new Paragraph("Email: F-planer@gmail.de"));
         //Close document
         try {
             doc.close();
