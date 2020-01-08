@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/pdf_5/pdf_5.iml" filepath="$PROJECT_DIR$/pdf_5/pdf_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/pdf_7/pdf_7.iml" filepath="$PROJECT_DIR$/pdf_7/pdf_7.iml" />
       <module fileurl="file://$PROJECT_DIR$/sft/sft.iml" filepath="$PROJECT_DIR$/sft/sft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zip/zip.iml" filepath="$PROJECT_DIR$/zip/zip.iml" />
     </modules>
   </component>
 </project>
