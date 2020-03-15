@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
-      <module name="dep" target="8" />
+      <module name="dep" target="13" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dep" options="--add-exports jdk.internal.vm.compiler/org.graalvm.compiler.nodes.memory.address=ALL-UNNAMED" />
+    </option>
   </component>
 </project>
