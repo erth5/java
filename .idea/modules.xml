@@ -6,9 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/list/list.iml" filepath="$PROJECT_DIR$/list/list.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/noname/noname.iml" filepath="$PROJECT_DIR$/noname/noname.iml" />
       <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../timer/timer.iml" filepath="$PROJECT_DIR$/../timer/timer.iml" />
       <module fileurl="file://$PROJECT_DIR$/traversal/traversal.iml" filepath="$PROJECT_DIR$/traversal/traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/url_analyse/url_analyse.iml" filepath="$PROJECT_DIR$/url_analyse/url_analyse.iml" />
     </modules>
   </component>
 </project>
